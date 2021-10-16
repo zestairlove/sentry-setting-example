@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { initSentry } from './sentry';
+import { initSentry } from './initSentry';
 
 const isProd = process.env.NODE_ENV === 'production';
 if (isProd && process.env.REACT_APP_SENTRY_RELEASE) {
