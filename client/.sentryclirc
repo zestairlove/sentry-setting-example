@@ -1,0 +1,9 @@
+[defaults]
+org=
+project=
+
+[auth]
+token=
+
+#[http]
+#verify_ssl=false
